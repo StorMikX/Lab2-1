@@ -1,5 +1,5 @@
 params = dict()
-with open("Lab2/conf", 'r') as file:
+with open("LabWorks/Lab2/conf", 'r') as file:
     for line in file:
         if line[0] != '#' and line[0] != ';' and line[0] != '\n':
             key, *value = line.rstrip("\n").split(" ")
@@ -16,9 +16,12 @@ while flag:
 
     command = (input("Завершить программу?(Y/N): "))
 
+  
     if command == "Y":
         flag = False
     elif command == "N":
         continue
-
+    else:
+        exit()
+       
 
