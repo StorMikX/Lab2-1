@@ -15,8 +15,6 @@ while flag:
     print("Значение параметра: ", params.get(param1))
 
     command = (input("Завершить программу?(Y/N): "))
-
-  
     if command == "Y":
         flag = False
     elif command == "N":
